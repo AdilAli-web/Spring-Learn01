@@ -19,6 +19,12 @@ public String order() {
 
 
 }
+@GetMapping("/payment")
+public String payment() {
+    return "order is place";
+
+
+}
 
 
 
